@@ -43,10 +43,10 @@ body {
     flex-direction: column;
     justify-content:space-between;
     align-items:stretch;
-    width: 60%;
+   /* / width: 60%; */
     box-shadow: rgb(173, 173, 173) 0 0 3px;
-    height: 60%;
-    padding:2rem;
+    /* height: 60%; */
+    padding:2rem 3rem;
     /* border-radius: .5rem; */
     border-radius: .5rem;
     /*background-color: var(--color-accent);
@@ -55,6 +55,9 @@ body {
     -moz-border-radius: .5rem;
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
+}
+.container>*:not(:last-child){
+    margin-bottom: 3rem;
 }
 .heading {
     text-align:center;
